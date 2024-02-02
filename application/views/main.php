@@ -175,6 +175,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               <p style="color:#fff;font-size:14px;">
                 Experience captivating journeys with our travel adventures.
               </p>
+              
             </div>
   
           </div>
