@@ -2,10 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIG</title>
-
-
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -65,12 +62,13 @@
 
     .head3 {
         background-color: rgba(0, 0, 0, 0.5);
-        position: absolute;
+        /* position: absolute; */
         top: 20vh;
         width: 100%;
         z-index: 1;
 
     }
+   
 
     .head2 {
         background-color: #ffffff;
@@ -181,7 +179,7 @@
         </div>
     </div>
     </div>
-    <div class="head3" style="font-weight: 600;">
+    <div class="head3 he3" style="font-weight: 600;">
         <div class="container">
             <div class="row nave " style="margin: 13px 0;">
                 <div class="col-md-12 d-flex  justify-content-around iteam">

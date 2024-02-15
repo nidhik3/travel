@@ -1,3 +1,12 @@
+<style>
+    .app{
+        border:2px solid black;
+        height: 48vh;
+    }
+    .head3{
+        padding:2px;
+    }
+</style>
 <div class="container h-100 mt-4">
     <div class="row">
         <div class="col-md-6">
