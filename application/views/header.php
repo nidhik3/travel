@@ -1,81 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Travel Bazaar</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="<?php echo base_url(); ?>/assets/imgs/fav.png" rel="icon">
-  <link href="<?php echo base_url(); ?>/assets/imgs/fav.png" rel="apple-touch-icon">
-
-
-  
-  <!-- Vendor CSS Files -->
-  <link href=" <?php echo base_url(); ?>assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIG</title>
 
 
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- splider slider CSS File -->
-  <link href="<?php echo base_url(); ?>/assets/css/new.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-  <!-- Template Main CSS File -->
-  <link href="<?php echo base_url(); ?>/assets/css/style.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Raleway&display=swap" rel="stylesheet">
-<script src="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
-"></script>
-<link href="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-" rel="stylesheet">
-</head>
-  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+    <style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        /* font-family: 'sf_ui_displayregular'; */
+    }
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-      <div class="row v-center">
-       <div class="col-sm-4">
-        <p style="color:#db3918; margin-bottom:0px; font-size:14px">
-          <i class="fa fa-phone font-11"></i> <span style="font-size:13px;color:#db3918;">+61 (03) 91110666</span> &nbsp;|&nbsp; 
-          <i class="fa fa-envelope font-12"></i> travel@travelbazaar.com.au
-        </p>
-      </div>
-      <div class="col-sm-4 text-center">
-      <a href="<?php echo base_url('');?>">  <img src="<?php echo base_url('assets/imgs/logo.png');?>" alt="" class="img-responsive logo" /></a>
-      
-      </div>
-      <div class="col-sm-4 nav">
-        <a href="<?php echo base_url('business');?>">BUSINESS &nbsp;|&nbsp;&nbsp;</a>
-        <a href="<?php echo base_url('leusure');?>">LEUSURE &nbsp;|&nbsp;&nbsp;</a>
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 80% !important;
+    }
+
+    a,
+    a:hover {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .tag:hover {
+        text-decoration: none;
+        color:#1A7645;
+    }
+
+    .tag {
+        text-decoration: none;
+        color: white;
+        padding: 0px 20px;
+    }
+
+    /* .tags:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    .tags {
+        text-decoration: none;
+        color: white;
        
-        <a href="<?php echo base_url('india');?>">INDIA &nbsp;|&nbsp;&nbsp;</a>
-        <a href="<?php echo base_url('austrailia');?>">AUSTRAILIA </a>
-      </div>
+    } */
+    .head1 {
+        background-color: rgb(39, 115, 30);
+    }
+
+    .head3 {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 20vh;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+    .head2 {
+        background-color: #ffffff;
+        padding: 20px 0;
+    }
+
+    .box {
+        background-color: #1A7645;
+        border: 1px solid #F3C58A;
+        border-radius: 10px;
+        font-size: 15px;
+        color: #ffffff;
+        padding: 3px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .box2 {
+        color: #e50000;
+        font-size: 18px;
+    }
+
+    .box3 {
+        font-size: 18px;
+        color: #10a02e;
+    }
+
+    @keyframes blinking {
+        0% {
+            color: #e50000;
+        }
+
+        49% {
+            color: #e50000;
+        }
+
+        60% {
+            color: transparent;
+        }
+
+        99% {
+            color: transparent;
+        }
+
+        100% {
+            color: #e50000;
+        }
+    }
+
+    .blink {
+        color: #e50000;
+        animation: blinking 1.2s infinite;
+    }
+    .nave .iteam a{
+        justify-content: center;
+    display: flex;
+        width: 100%;
+        border-right: 1px solid #fff !important;
+    }
+    </style>
+
+</head>
+
+<header id="header">
+    <!-- <div class="head1">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-8  pt-3 pb-3">
+                    <a class="tag" href="<?php echo base_url('#');?>">ENQUIRY&nbsp;&nbsp;|&nbsp;</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">CARRER&nbsp;&nbsp;|&nbsp;</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">BLOOD BANK&nbsp;&nbsp;|&nbsp;</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">HEALTH CHECK UP PLANS&nbsp;&nbsp;|&nbsp;</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">FEEDBACK&nbsp;&nbsp;|&nbsp;</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">DOWNLOADS&nbsp;&nbsp;|&nbsp;</a>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="head2 ">
+        <div class="container">
+            <div class="row pt-3 pb-3 d-flex justify-content-around">
+                <div class="logo">
+                    <img src="<?php echo base_url('assets/images/logo.png');?> " alt="">
+                </div>
+                <div class="box" style="font-weight: 600;">
+                    Years served - 50 + <br>
+                    Patients served - 5 Million + <br>
+                    Served today - 534 <br>
+                </div>
+                <div class="box1">
+                    <a class="blink" href="<?php echo base_url('#');?>" style="font-weight: 600;">
+                        BOOK APPOINTMENT <br>
+                        FOR TELECONSULTATION <br>
+                        OR CALL ON - 91160-50108
+                    </a>
+                </div>
+                <div class="box2" style="font-weight: 600;">
+                    <span class="s1">Emergency Number:</span> <br>
+                    <a href="<?php echo base_url('#');?>">0141 352 4444</a>
+                </div>
+                <div class="box3" style="font-weight: 600;">
+                    <span class="s2">Email Us:</span> <br>
+                    <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
+                </div>
+
+            </div>
+        </div>
     </div>
     </div>
-  </header>
-
-
-<body>
-
-  <!-- End Header -->
+    <div class="head3" style="font-weight: 600;">
+        <div class="container">
+            <div class="row nave " style="margin: 13px 0;">
+                <div class="col-md-12 d-flex  justify-content-around iteam">
+                    <a class="tag" href="<?php echo base_url('Intro');?>">INTRODUCTION</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">APPOINTMENTS</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">CONSULTATION</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">FACILITIES</a>
+                    <a class="tag" href="<?php echo base_url('#');?>">ABOUT US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
