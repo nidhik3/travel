@@ -5,15 +5,17 @@
 }
 
 </style>
+
+
 <footer id=footer>
-    <div class="icon d-flex flex-column" style="position: fixed;bottom:50px; right:50px;">
-        <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class=" i social mt-3">
+    <div class="icon d-flex flex-column" style="position: fixed;bottom:10px; right:15px;">
+        <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class=" i social mt-2">
             <img src="assets/logo/insta.webp" alt="" style="height:5vh">
         </a>
-        <a href="https://www.facebook.com/sdmhjaipur/" class=" f social mt-3">
+        <a href="https://www.facebook.com/sdmhjaipur/" class=" f social mt-2">
             <img src="assets/logo/fb.png" alt="" style="height:5vh">
         </a>
-        <a href="#" class="w social mt-3">
+        <a href="#" class="w social mt-2">
             <img src="assets/logo/wa.png" alt="" style="height:5vh ">
 
         </a>

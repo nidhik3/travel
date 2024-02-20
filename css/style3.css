@@ -1,0 +1,17 @@
+.app {
+    border: 2px solid black;
+    height: 48vh;
+}
+
+.head3 {
+    padding: 2px;
+}
+
+.container .row .mm {
+    margin-top: 7vh;
+}
+
+a .card {
+    border: 2px solid black;
+    background-color: rgb(98, 204, 109)
+}

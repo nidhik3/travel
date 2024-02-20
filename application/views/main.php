@@ -1,26 +1,5 @@
-<style>
-    .s1 {
-        position: relative;
-    }
+<link rel="stylesheet" href="css/style2.css">
 
-    .icon {
-        position: absolute;
-        bottom: 1vh;
-        right: 9vh;
-    }
-
-    .social image {
-        border-radius: 5px;
-    }
-    .app{
-        border:2px solid black;
-        height: 48vh;
-    }
-    .he3{
-      position: absolute;
-    }
-   
-</style>
 
 
 <section
@@ -38,38 +17,191 @@
     </div>
 </section>
 
-
-   
-    
-
 <section>
-    <div class="container " >
+    <div class="container">
         <div class="row">
-            <div class="col-md-5 mt-md-3 mt-2 app" style="justify-content: center;align-items: center" ;>
-                <h4 class="text-center mt-4" style="font-weight: 600;">APPOINTMENT
-                </h4>
-                <div class="col-md5 mt-md-3 mt-2"style="justify-content: center;align-items: center";>
-                <p class="text-center mt-4" style="font-weight: 500; ">OPD Consultation: <span>+91234567890</span></p>
-                     <a class="text-center" href="<?php echo base_url('#');?>">Link OPD Consultation
-                    </a>
-
-                    <p class="text-center mt-4" style="font-weight: 500; ">Tele Consultation: <span>+91234567890</span></p>
-                    <a class="text-center" href="<?php echo base_url('#');?>"> Link Tele
-                        Consultation</a>
-
-                        <p class="text-center mt-4" style="font-weight: 500; ">Tumor Board Consultation: <span>+91234567890</span></p>
-                    <a class="text-center" href="<?php echo base_url('#');?>">Link Tumor Board Consultation
-                    </a>
+              <div class="col-md-5">
+                <div class="card cardd" >
+                    <h4 class="text-center mt-4" style="font-weight: 600; font-size:30px;">APPOINTMENT
+                    </h4>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890</p>
+                    <a   class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890</p>
+                    <a  class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation: +91234567890</p>
+                    <a  class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
                 </div>
             </div>
-            <div class="col-md-7 ">
-               
-                    <img src="assets/images/SDMH2.jpg" alt="" width="100%"style="height:50vh">
-                
+            <div class="col-md-7">
+                <img src="assets/images/SDMH2.jpg" alt="" width="100%" style="height:50vh">
             </div>
-            
-                
-            
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container  mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center mb-4" style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">
+                    Introduction about SIG</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                    The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
+                    It was the first department of Gastroenterology, in any private hospital, in the state of Rajasthan.
+                    <br> It was also the first private hospital of the state to be recognized for super specialty DNB
+                    training course by
+                    Medical Council of India and presently admits two candidates per year for superspeciality training
+                    in
+                    Gastroenterology. <br>
+                    The department was first in the county, to be recognized by the Indian Society of Gastroenterology,
+                    for one year Fellowship in Advanced Therapeutic Endoscopy, for Post D.M. Gastroenterologists. <br>
+                    Today, the department stands tall with 35-bed dedicated Gastroenterology Ward for oretically ill.
+                    <br>
+                    The department is equipped with state-of-the-art endoscopy suite, 24/7 availability of doctor,
+                    availability of four endoscopy suites, a dedicated Gastroenterology ICU and two separate
+                    Gastroenterology Wards. <br>
+                    The Department caters to all gastro-intestinal, hepatic and pancreatico-billary disorders with round
+                    the
+                    clock emergency OPD,
+                    emergency and ICU services for the critically ill patients.
+                    It is a high volume tertiary care center for simple to complex and complicated gastrointestinal
+                    disease.
+                </p>
+            </div>
+
+
+            <div class="col-md-5">
+                <div class="card cardd">
+                    <h4 class="text-center mt-4" style="font-weight: 600; font-size:30px;">
+                        APPOINTMENT
+                    </h4>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+                        +91234567890</p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container  mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center mb-4" style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">When we
+                    need a gastroenterologist?
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                    The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
+                    It was the first department of Gastroenterology, in any private hospital, in the state of Rajasthan.
+                    <br> It was also the first private hospital of the state to be recognized for super specialty DNB
+                    training course by
+                    Medical Council of India and presently admits two candidates per year for superspeciality training
+                    in
+                    Gastroenterology. <br>
+                    The department was first in the county, to be recognized by the Indian Society of Gastroenterology,
+                    for one year Fellowship in Advanced Therapeutic Endoscopy, for Post D.M. Gastroenterologists. <br>
+                    Today, the department stands tall with 35-bed dedicated Gastroenterology Ward for oretically ill.
+                    <br>
+                    The department is equipped with state-of-the-art endoscopy suite, 24/7 availability of doctor,
+                    availability of four endoscopy suites, a dedicated Gastroenterology ICU and two separate
+                    Gastroenterology Wards. <br>
+                    The Department caters to all gastro-intestinal, hepatic and pancreatico-billary disorders with round
+                    the
+                    clock emergency OPD,
+                    emergency and ICU services for the critically ill patients.
+                    It is a high volume tertiary care center for simple to complex and complicated gastrointestinal
+                    disease.
+                </p>
+            </div>
+
+
+            <div class="col-md-5">
+                <div class="card cardd">
+                    <h4 class="text-center mt-4" style="font-weight: 600;font-size:30px;">
+                        APPOINTMENT
+                    </h4>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+                        +91234567890</p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container  mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center mb-4" style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">
+                    Why choose SIG?
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                    The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
+                    It was the first department of Gastroenterology, in any private hospital, in the state of Rajasthan.
+                    <br> It was also the first private hospital of the state to be recognized for super specialty DNB
+                    training course by
+                    Medical Council of India and presently admits two candidates per year for superspeciality training
+                    in
+                    Gastroenterology. <br>
+                    The department was first in the county, to be recognized by the Indian Society of Gastroenterology,
+                    for one year Fellowship in Advanced Therapeutic Endoscopy, for Post D.M. Gastroenterologists. <br>
+                    Today, the department stands tall with 35-bed dedicated Gastroenterology Ward for oretically ill.
+                    <br>
+                    The department is equipped with state-of-the-art endoscopy suite, 24/7 availability of doctor,
+                    availability of four endoscopy suites, a dedicated Gastroenterology ICU and two separate
+                    Gastroenterology Wards. <br>
+                    The Department caters to all gastro-intestinal, hepatic and pancreatico-billary disorders with round
+                    the
+                    clock emergency OPD,
+                    emergency and ICU services for the critically ill patients.
+                    It is a high volume tertiary care center for simple to complex and complicated gastrointestinal
+                    disease.
+                </p>
+            </div>
+
+
+            <div class="col-md-5">
+                <div class="card cardd">
+                    <h4 class="text-center mt-4" style="font-weight: 600;font-size:30px;">
+                        APPOINTMENT
+                    </h4>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890
+                    </p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                    <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+                        +91234567890</p>
+                    <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
