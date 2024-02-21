@@ -1,3 +1,10 @@
+<style>
+    .ra{
+    border-radius: 23px;
+}
+</style>
+
+
 <section>
     <div class="container ">
         <div class="row">
@@ -8,7 +15,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-around ">
-            <div class="col-md-3 border shadow p-3 ">
+            <div class="col-md-3 border shadow p-3 ra">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/images/f1.png" alt="" width="50px" ;>
@@ -31,7 +38,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 border shadow p-3">
+            <div class="col-md-3 border shadow p-3 ra">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/images/f1.png" alt="" width="50px" ;>
@@ -54,7 +61,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 border shadow p-3">
+            <div class="col-md-3 border shadow p-3 ra">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/images/f1.png" alt="" width="50px" ;>
@@ -83,17 +90,18 @@
 
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col " ;>
-                <textarea class="form-control mb-4 " placeholder="Your Feedback" style="    width: 72vw;
+        <form action="" method="post">
+            <div class="row">
+                <div class="col " ;>
+                    <textarea class="form-control mb-4 " placeholder="Your Feedback" style="    width: 72vw;
                 margin-left: 2vw;"></textarea>
+                </div>
             </div>
-        </div>
 
-        <div class="row mb-4 " style="justify-content: center; ">
-            <input type="submit" value="Submit" class="btn btn-primary">
-        </div>
-
+            <div class="row mb-4 " style="justify-content: center; ">
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </div>
+        </form>
     </div>
 </section>
 
@@ -102,12 +110,18 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
             <div class="col">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
-        
+
     </div>
 </section>

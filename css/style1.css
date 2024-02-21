@@ -125,9 +125,19 @@ section {
 }
 
 .cardd {
+    height: 500px;
+    width:500px;
+    border: 2px solid gray;
+    background-color: rgb(244, 246, 247);
+    border-radius: 250px;
+    /* padding: 40px;*/
+    padding: 30px; 
+}
+.car {
     height: 50vh;
     border: 2px solid gray;
-    background-color: #e7f1f7;
+    background-color: rgba(245, 250, 252, .5);
+  
 }
 
 .cardd .h4 {
