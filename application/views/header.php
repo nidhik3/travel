@@ -35,11 +35,11 @@
         </div>
     </div>
 
-    <div class="head2 ">
+    <div class="head2 pt-md-3 pt-2 px-0">
         <div class="container">
             <div class="row pt-3 pb-3 d-flex justify-content-around">
                 <div class="logo">
-                    <a href="<?php echo base_url('/');?>"> <img src="<?php echo base_url('assets1/images/logo.png');?> "
+                    <a href="<?php echo base_url('/');?>"> <img src="<?php echo base_url('assets/images/logo.png');?> "
                             alt=""></a>
                 </div>
                 <div class="box" style="font-weight: 600;">
@@ -77,7 +77,7 @@
                     <a class="tag" href="<?php echo base_url('');?>">GALLERY</a>
                     <a class="tag" href="<?php echo base_url('feedback');?>">FEEDBACK</a>
                     <a class="tag" href="<?php echo base_url('#');?>">PROCEDURE</a>
-                    <a class="tag" href="<?php echo base_url('#');?>">CONSULTATION</a>
+                    <a class="tag" href="<?php echo base_url('consultation');?>">CONSULTATION</a>
                 </div>
             </div>
         </div>

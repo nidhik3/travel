@@ -48,24 +48,24 @@ color: white;
 } */
 .head1 {
     background-color: rgb(39, 115, 30);
-    height: .5vh;
+    /* height: .5vh; */
 }
 
+.head2 {
+    background-color: #ffffff;
+    /* padding: 15px 0; */
+
+}
 .head3 {
     background-color: rgba(0, 0, 0, 0.5);
-    /* position: absolute; */
-    top: 19.3vh;
+    /* top: 19.3vh; */
     width: 100%;
     z-index: 1;
 
 }
 
 
-.head2 {
-    background-color: #ffffff;
-    padding: 15px 0;
 
-}
 
 .box {
     background-color: #1A7645;

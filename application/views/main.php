@@ -10,7 +10,7 @@
             <div class="row p-5 h-100">
                 <div class="col-md-6 d-flex h-100 justify-content-end align-items-center">
                     <h4 style="font-weight: 600;">SANTOKBA INSTITUTE OF GASTROENTEROLOGY </h4>
-                    <img src="" alt="" width="20">
+                    <!-- <img src="" alt="" width="20"> -->
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
 
 
             <div class="col-md-5">
-                <div class="card cardd ">
+                <div class="card cardd d-flex justify-content-center align-items-center">
                     <h4 class="text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
                         APPOINTMENT
                     </h4>
@@ -98,10 +98,10 @@
 </section>
 
 
-<section class="mt-2" style="background: linear-gradient(90deg,#565e66 10%, rgba(240,248,253,1) 70%);">
+<section class="mt-2" style="background: linear-gradient(270deg,rgba(240,248,253,1) 70%,#565e66 70%);">
     <div class="container  mt-4">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 d d-flex justify-content-end">
                 <h4 class=" mb-4" style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">
                 When we need a gastroenterologist?</h4>
             </div>
@@ -109,7 +109,7 @@
         <div class="row">
             
         <div class="col-md-5">
-                <div class="card cardd ">
+                <div class="card cardd d-flex justify-content-center align-items-center">
                     <h4 class="text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
                         APPOINTMENT
                     </h4>
@@ -191,7 +191,7 @@
 
 
             <div class="col-md-5">
-                <div class="card cardd ">
+                <div class="card cardd  d-flex justify-content-center align-items-center" ">
                     <h4 class="text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
                         APPOINTMENT
                     </h4>
