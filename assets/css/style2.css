@@ -1,0 +1,22 @@
+.s1 {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    bottom: 1vh;
+    right: 9vh;
+}
+
+.social image {
+    border-radius: 5px;
+}
+
+.app {
+    border: 2px solid black;
+    height: 48vh;
+}
+
+.he3 {
+    position: absolute;
+}
