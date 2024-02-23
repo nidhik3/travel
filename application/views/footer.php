@@ -332,20 +332,24 @@
         background: rgba(1, 100, 152, 0.5);
         padding: 15px 0;
     }
+    .social{
+        height:5vh;
+        border-radius:10px
+    }
     
     </style>
     
     
     <footer id=footer>
         <div class="icon d-flex flex-column" style="position: fixed;bottom:10px; right:15px;">
-            <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class=" i social mt-2">
-                <img src="assets/nlogo/insta.webp" alt="" style="height:5vh">
+            <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class="mt-2">
+                <img src="assets/nlogo/insta.png" alt="" class="social" >
             </a>
-            <a href="https://www.facebook.com/sdmhjaipur/" class=" f social mt-2">
-                <img src="assets/nlogo/fb.png" alt="" style="height:5vh">
+            <a href="https://www.facebook.com/sdmhjaipur/" class="mt-2">
+                <img src="assets/nlogo/fb.png" alt="" class="social" >
             </a>
             <a href="#" class="w social mt-2">
-                <img src="assets/nlogo/wa.png" alt="" style="height:5vh ">
+                <img src="assets/nlogo/wa.png" alt="" class="social">
     
             </a>
         </div>

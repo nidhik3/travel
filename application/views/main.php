@@ -29,24 +29,24 @@
 
 <section>
   <div class="container">
-    <div class="row">
+    <div class="row text-center ">
       <div class="col-md-5">
         <div class="card car">
-          <h4 class="text-center mt-4" style="font-weight: 600; font-size:30px;">APPOINTMENT
+          <h4 class="mt-4" style="font-weight: 600; font-size:30px;">APPOINTMENT
           </h4>
-          <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
           </p>
-          <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation: +91234567890
           </p>
-          <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class="mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
             +91234567890</p>
-          <a class=" ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
         </div>
       </div>
       <div class="col-md-7">
-        <img src="assets/nimages/SDMH2.jpg" alt="" width="100%" style="height:50vh">
+        <img src="assets/nimages/SDMH2.jpg" alt="" width="100%" style="height:auto">
       </div>
     </div>
   </div>
@@ -87,21 +87,22 @@
       </div>
 
 
-      <div class="col-md-5">
-        <div class="card cardd d-flex justify-content-center align-items-center">
-          <h4 class="text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
-            APPOINTMENT
+      
+      <div class="col-md-5 text-center">
+        <div class="card cardd  d-flex justify-content-center align-items-center">
+                    <h4 class=" text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
+          APPOINTMENT
           </h4>
-          <p class="text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
             +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="text-center  ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
             +91234567890</p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
         </div>
       </div>
     </div>
@@ -117,23 +118,23 @@
           When we need a gastroenterologist?</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row text-center">
 
       <div class="col-md-5">
-        <div class="card cardd d-flex justify-content-center align-items-center">
-          <h4 class="text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
+        <div class="card cardd d-flex justify-content-center align-items-center ">
+          <h4 class=" mt-2 pt-10" style="font-weight: 600; font-size:30px;">
             APPOINTMENT
           </h4>
-          <p class="text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
             +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="text-center  ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class="mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
             +91234567890</p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
         </div>
       </div>
       <div class="col-md-7">
@@ -175,7 +176,7 @@
           Why choose SIG?</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row ">
       <div class="col-md-7">
         <p style="font-size:20px">
           The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
@@ -202,21 +203,21 @@
       </div>
 
 
-      <div class="col-md-5">
-        <div class="card cardd  d-flex justify-content-center align-items-center" ">
+      <div class="col-md-5 text-center">
+        <div class="card cardd  d-flex justify-content-center align-items-center">
                     <h4 class=" text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
           APPOINTMENT
           </h4>
-          <p class="text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" text-center ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
+          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
             +91234567890
           </p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="text-center  ml-4 mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
             +91234567890</p>
-          <a class="text-center  ml-4 " href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
         </div>
       </div>
     </div>
