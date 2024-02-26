@@ -1,7 +1,20 @@
 <style>
-    .ra{
-    border-radius: 23px;
-}
+    .ra {
+        border-radius: 23px;
+    }
+
+    .rating {
+        font-size: 35px;
+    }
+
+    .star {
+        cursor: pointer;
+    
+    }
+
+    .selected {
+        color: #f26522;
+    }
 </style>
 
 
@@ -89,19 +102,25 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container  text-center ">
         <form action="" method="post">
-        <div class="row  d-flex justify-content-around align-item-center">
-                <div class="col-md-10 mb-4" ;>
+            <div class="row  d-flex justify-content-around align-item-center">
+                <div class="col-md-10 mb-2" ;>
                     <textarea class="form-control  " placeholder="Your Feedback"></textarea>
                 </div>
             </div>
-
-            <div class="row  mb-3 d-flex justify-content-around align-item-center ">
-                <div class=" col-md-1">
-                    <button type="submit" class="btn btn-primary" value="submit">Submit</button>
-                </div>
+   <div class="col-md-4 rating" onclick="handleRating(event) ">
+                <span class="star" data-value="1" style="size: 300px;">&#9733; </span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
             </div>
+            <input type="hidden" name="rating" id="selectedRating" value="0">
+            <div class="mb-3">
+                    <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+            </div>
+         
         </form>
     </div>
 </section>
@@ -126,3 +145,19 @@
 
     </div>
 </section>
+<script>
+    function handleRating(event) {
+        if (event.target.classList.contains('star')) {
+            const ratingValue = event.target.getAttribute('data-value');
+            document.getElementById('selectedRating').value = ratingValue;
+
+            // Reset styles
+            document.querySelectorAll('.star').forEach(star => star.classList.remove('selected'));
+
+            // Highlight selected stars
+            for (let i = 1; i <= ratingValue; i++) {
+                document.querySelector(`.star[data-value="${i}"]`).classList.add('selected');
+            }
+        }
+    }
+</script>

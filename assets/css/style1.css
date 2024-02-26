@@ -30,7 +30,7 @@ a:hover {
 .tag {
     text-decoration: none;
     color: white;
-    padding: 0px 20px !important;
+    padding: 0px 20px 0px 10px !important;
 } 
 
 /* .tags:hover {

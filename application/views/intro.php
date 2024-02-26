@@ -17,7 +17,7 @@
                     <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum reiciendis quas molestias, quam
                         modi alias consectetur quae sint architecto qui ex accusamus officia laboriosam quidem deleniti
                         atque corporis! Suscipit, nesciunt?</p>
-                    <a class="view card text-center p-1" href="<?php echo base_url('#');?>"
+                    <a class="view card text-center p-1" href="<?php echo base_url('profile');?>"
                         style="background-color: rgb(98, 204, 109) ;"> View Profile</a>
                     <a class="appoint card text-center p-1 mt-1" href="<?php echo base_url('appointment');?>"
                         style=" background-color:rgb(60, 143, 69)" ;>Appointment</a>
@@ -31,7 +31,7 @@
                     <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum reiciendis quas molestias, quam
                         modi alias consectetur quae sint architecto qui ex accusamus officia laboriosam quidem deleniti
                         atque corporis! Suscipit, nesciunt?</p>
-                    <a class="view card text-center p-1" href="<?php echo base_url('#');?>"
+                    <a class="view card text-center p-1" href="<?php echo base_url('profile');?>"
                         style="background-color: rgb(98, 204, 109) ;"> View Profile</a>
                     <a class="appoint card text-center p-1 mt-1" href="<?php echo base_url('appointment');?>"
                         style=" background-color:rgb(60, 143, 69)" ;>Appointment</a>
@@ -44,7 +44,7 @@
                     <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum reiciendis quas molestias, quam
                         modi alias consectetur quae sint architecto qui ex accusamus officia laboriosam quidem deleniti
                         atque corporis! Suscipit, nesciunt?</p>
-                    <a class="view card text-center p-1" href="<?php echo base_url('#');?>"
+                    <a class="view card text-center p-1" href="<?php echo base_url('profile');?>"
                         style="background-color: rgb(98, 204, 109) ;"> View Profile</a>
                     <a class="appoint card text-center p-1 mt-1" href="<?php echo base_url('appointment');?>"
                         style=" background-color:rgb(60, 143, 69)" ;>Appointment</a>
@@ -57,7 +57,7 @@
                     <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum reiciendis quas molestias, quam
                         modi alias consectetur quae sint architecto qui ex accusamus officia laboriosam quidem deleniti
                         atque corporis! Suscipit, nesciunt?</p>
-                    <a class="view card text-center p-1" href="<?php echo base_url('#');?>"
+                    <a class="view card text-center p-1" href="<?php echo base_url('profile');?>"
                         style="background-color: rgb(98, 204, 109) ;"> View Profile</a>
                     <a class="appoint card text-center p-1 mt-1" href="<?php echo base_url('appointment');?>"
                         style=" background-color:rgb(60, 143, 69)" ;>Appointment</a>

@@ -383,7 +383,7 @@ section {
 
   .navbar>ul>li {
     white-space: nowrap;
-    padding: 10px 0 10px 28px;
+    padding: 10px;
   }
 
   .navbar a,

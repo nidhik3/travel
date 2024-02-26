@@ -1,4 +1,4 @@
-<!-- <style>
+<style>
 .head3 {
     padding: 2px;
 }
@@ -8,15 +8,13 @@
     } */
 
 
-.c1 {
-   
-}
 
 .textbox {  
       height: 3rem;
+      width:19rem;
     padding: 1rem;
 }
-</style> -->
+</style>
 
 
 
@@ -35,7 +33,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-md-4  mb-4  text-center">
 
                     <!-- <input style="font-family: 'Font Awesome 5 Free'; font-weight:700" type="text" class="textbox" placeholder=" &#xf007; First Name"> -->

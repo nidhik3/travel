@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>AjayDiam</title>
+    <title>SDMH</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -161,12 +161,21 @@
 
                 <ul class="item" style="width: 100%; justify-content: center;">
                     <li><a class="tag " href="<?php echo base_url('intro');?>">INTRODUCTION</a></li>
-                    <li><a class="tag" href="<?php echo base_url('');?>">PROFILE</a></li>
+                    <li class="dropdown "><a class="tag " href="#">PROFILE<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="<?php echo base_url('profile'); ?>">Dr Anurag Govil</a></li>
+                            <li><a href="<?php echo base_url('profile'); ?>">Dr Dinesh Agrawal
+                                </a></li>
+                            <li><a href="<?php echo base_url('profile'); ?>">Dr Nikhil Atolia</a></li>
+                            <li><a href="<?php echo base_url('profile'); ?>">Dr Sandeep Vaishnav</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a class="tag" href="<?php echo base_url('');?>">PROFILE</a></li> -->
                     <li><a class="tag" href="<?php echo base_url('appointment');?>">APPOINTMENTS</a></li>
                     <li> <a class="tag" href="<?php echo base_url('gallery');?>">GALLERY</a></li>
                     <li><a class="tag" href="<?php echo base_url('feedback');?>">FEEDBACK</a></li>
                     <li><a class="tag" href="<?php echo base_url('#');?>">PROCEDURE</a></li>
-                    <li><a class="tag" href="<?php echo base_url('#');?>">CONSULTATION</a></li>
+                    <li><a class="tag" href="<?php echo base_url('consultation');?>">CONSULTATION</a></li>
 
                 </ul>
             </nav><!-- .navbar -->
