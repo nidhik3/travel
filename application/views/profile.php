@@ -1,4 +1,4 @@
-<section style="padding:32px 0px">
+<section >
     <div class="container">
 
         <div class="row mt-4 d-flex justify-content-between pb-9">
@@ -20,9 +20,11 @@
                 </p>
 
                 <h7 style="font-weight:500;font-size:30px ;">Education & Training:</h7>
-                <p>M.B., B.S.: Guj. Univ., India, 1994</p>
-                <p>M.D.: Guj. Univ., India, 1997</p>
-                <p>DM, gastro: LTMMC, Mumbai 2000</p>
+                <p>M.B., B.S.: Guj. Univ., India, 1994 <br>
+                M.D.: Guj. Univ., India, 1997<br>
+                DM, gastro: LTMMC, Mumbai 2000
+                </p>
+                
             </div>
         </div>
     </div>

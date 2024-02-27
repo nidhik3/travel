@@ -89,22 +89,14 @@
 
       
       <div class="col-md-5 text-center">
-        <div class="card cardd  d-flex justify-content-center align-items-center">
-                    <h4 class=" text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
-          APPOINTMENT
-          </h4>
-          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
-          </p>
-          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
-            +91234567890
-          </p>
-          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
-            +91234567890</p>
-          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+
+        <div class="card cardd " style=" background-image: url('assets/number/c4.jpg');
+          background-size: cover; background-position: right;">
+        
         </div>
+
       </div>
+
     </div>
   </div>
 </section>
@@ -120,23 +112,15 @@
     </div>
     <div class="row text-center">
 
-      <div class="col-md-5">
-        <div class="card cardd d-flex justify-content-center align-items-center ">
-          <h4 class=" mt-2 pt-10" style="font-weight: 600; font-size:30px;">
-            APPOINTMENT
-          </h4>
-          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
-          </p>
-          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
-            +91234567890
-          </p>
-          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
-            +91234567890</p>
-          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+     <div class="col-md-5 text-center">
+
+        <div class="card cardd " style=" background-image: url('assets/number/c2.jpg');
+          background-size: cover; background-position:left;">
+        
         </div>
+
       </div>
+
       <div class="col-md-7">
         <p style="font-size:20px">
           The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
@@ -204,37 +188,16 @@
 
 
       <div class="col-md-5 text-center">
-        <div class="card cardd  d-flex justify-content-center align-items-center">
-                    <h4 class=" text-center mt-2 pt-10" style="font-weight: 600; font-size:30px;">
-          APPOINTMENT
-          </h4>
-          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
-          </p>
-          <a  href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">Tele Consultation:
-            +91234567890
-          </p>
-          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
-          <p class="  mt-2 mb-2" style="font-weight: 450; font-size:23px">Tumor Board Consultation:
-            +91234567890</p>
-          <a href="<?php echo base_url('#');?>">Click For OPD Consultation</a>
+
+        <div class="card cardd " style=" background-image: url('assets/number/c3.jpg');
+          background-size: cover; background-position: center;">
+        
         </div>
+
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

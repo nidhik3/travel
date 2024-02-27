@@ -87,7 +87,7 @@
         <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
                     <img src="<?php echo base_url('assets/nimages/logo.png');?> " alt="">
                 </a>
-                <div class="col-md-9 col-6 row d-flex justify-content-around align-items-center"
+                <div class="col-md-9 col-6 row d-flex justify-content-between align-items-center"
                     style="padding: 10px 0;">
 
                     <div class="col-md-3 col-6 box" style="font-weight: 600;">
@@ -102,11 +102,11 @@
                             OR CALL ON - 91160-50108
                         </a>
                     </div>
-                    <div class="col-md-3 col-6" style="font-weight: 600; color: #e50000;">
+                    <div class="col-md-2 col-6" style="font-weight: 600; color: #e50000;">
                         <span class="s1">Emergency Number:</span> <br>
                         <a href="<?php echo base_url('#');?>">0141 352 4444</a>
                     </div>
-                    <div class="col-md-3 col-6" style="font-weight: 600; color:#10a02e;">
+                    <div class="col-md-2 col-6" style="font-weight: 600; color:#10a02e;">
                         <span class="s2">Email Us:</span> <br>
                         <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
                     </div>
@@ -132,7 +132,7 @@
 
 
                     </div>
-                    <div class="col-12 row d-flex justify-content-around align-items-center" style="padding: 10px 0;">
+                    <div class="col-12 row d-flex justify-content-between align-items-center" style="padding: 10px 0;">
                         <div class="col-4">
                             <a class="blink" href="<?php echo base_url('#');?>" style="font-weight: 600;">
                                 BOOK APPOINTMENT <br>
@@ -161,7 +161,8 @@
 
                 <ul class="item" style="width: 100%; justify-content: center;">
                     <li><a class="tag " href="<?php echo base_url('intro');?>">INTRODUCTION</a></li>
-                    <li class="dropdown "><a class="tag " href="#">PROFILE<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown "><a class="tag " href="#">PROFILE<i
+                                class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('profile'); ?>">Dr Anurag Govil</a></li>
                             <li><a href="<?php echo base_url('profile'); ?>">Dr Dinesh Agrawal
@@ -174,7 +175,7 @@
                     <li><a class="tag" href="<?php echo base_url('appointment');?>">APPOINTMENTS</a></li>
                     <li> <a class="tag" href="<?php echo base_url('gallery');?>">GALLERY</a></li>
                     <li><a class="tag" href="<?php echo base_url('feedback');?>">FEEDBACK</a></li>
-                    <li><a class="tag" href="<?php echo base_url('#');?>">PROCEDURE</a></li>
+                    <!-- <li><a class="tag" href="<?php echo base_url('#');?>">PROCEDURE</a></li> -->
                     <li><a class="tag" href="<?php echo base_url('consultation');?>">CONSULTATION</a></li>
 
                 </ul>

@@ -9,17 +9,28 @@
 
     .star {
         cursor: pointer;
-    
+        
     }
 
     .selected {
-        color: #f26522;
+        color: #f2b21b;
     }
 </style>
 
 
 <section>
     <div class="container ">
+        <div class="row text-center p-2">
+            <div class="col-md-12">
+                <img src="assets/ncons/cons3.webp" alt="">
+                --------------
+                <img src="assets/ncons/cons2.webp" alt="">
+                ---------------
+                <img src="assets/ncons/cons1.webp" alt="">
+                <!-- <img src="assets/ncons/cons4.png" alt=""> -->
+            </div>
+        </div>
+
         <div class="row">
             <div class="col">
                 <h4 class="text-center m-4" style="font-weight: 600; font-size:30px;">Unveiling the Pinnacle of Our
@@ -34,12 +45,12 @@
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
-                    <div class="col-md-7 ">
+                    <div class="col-md-7 px-4">
                         <p class="mb-0" style="font-size: 20px; font-weight: 300;">
                             Ziva
                         </p>
                         <p>
-                            21 years,Student.
+                            21 years, Student
                         </p>
                     </div>
                 </div>
@@ -57,12 +68,12 @@
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
-                    <div class="col-md-7 ">
+                    <div class="col-md-7 px-4">
                         <p class="mb-0" style="font-size: 20px; font-weight: 300;">
                             Ziva
                         </p>
                         <p>
-                            21 years,Student.
+                            21 years, Student
                         </p>
                     </div>
                 </div>
@@ -80,12 +91,12 @@
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
-                    <div class="col-md-7 ">
+                    <div class="col-md-7 px-4 ">
                         <p class="mb-0" style="font-size: 20px; font-weight: 300;">
                             Ziva
                         </p>
                         <p>
-                            21 years,Student.
+                            21 years, Student
                         </p>
                     </div>
                 </div>
@@ -110,11 +121,11 @@
                 </div>
             </div>
    <div class="col-md-4 rating" onclick="handleRating(event) ">
-                <span class="star" data-value="1" style="size: 300px;">&#9733; </span>
-                <span class="star" data-value="2">&#9733;</span>
-                <span class="star" data-value="3">&#9733;</span>
-                <span class="star" data-value="4">&#9733;</span>
-                <span class="star" data-value="5">&#9733;</span>
+                <span class="star" data-value="1">&#x2606;</span>
+                <span class="star" data-value="2">&#x2606;</span>
+                <span class="star" data-value="3">&#x2606;</span>
+                <span class="star" data-value="4">&#x2606;</span>
+                <span class="star" data-value="5">&#x2606;</span>
             </div>
             <input type="hidden" name="rating" id="selectedRating" value="0">
             <div class="mb-3">
@@ -128,14 +139,14 @@
 
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-around">
+            <div class="col-md-5">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col-md-5">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

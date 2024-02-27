@@ -63,7 +63,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 20px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -183,7 +183,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  /* background: rgba(248, 90, 64, 0.8); */
   color: #fff;
 }
 
@@ -467,6 +467,7 @@ section {
   .navbar .dropdown ul a i {
     font-size: 12px;
   }
+
 
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
