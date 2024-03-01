@@ -25,6 +25,6 @@ class feedback extends CI_Controller {
 		$this->load->view('feedback');
 		$this->load->view('footer');
 	}
-	 
+
 }
 

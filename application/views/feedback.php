@@ -9,7 +9,7 @@
 
     .star {
         cursor: pointer;
-        
+
     }
 
     .selected {
@@ -23,9 +23,9 @@
         <div class="row text-center p-2">
             <div class="col-md-12">
                 <img src="assets/ncons/cons3.webp" alt="">
-                --------------
+                ----
                 <img src="assets/ncons/cons2.webp" alt="">
-                ---------------
+                ----
                 <img src="assets/ncons/cons1.webp" alt="">
                 <!-- <img src="assets/ncons/cons4.png" alt=""> -->
             </div>
@@ -39,17 +39,17 @@
             </div>
         </div>
         <div class="row d-flex justify-content-around ">
-            <div class="col-md-3 border shadow p-3 ra">
+            <div class="col-md-3 border shadow p-3 ra mt-md-0 mt-4">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
                     <div class="col-md-7 px-4">
-                        <p class="mb-0" style="font-size: 20px; font-weight: 300;">
+                        <p class="mb-0" style="font-size: 20px; font-weight: 500;color: #34b14e;">
                             Ziva
                         </p>
-                        <p>
+                        <p style=" font-weight: 500;">
                             21 years, Student
                         </p>
                     </div>
@@ -62,17 +62,17 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 border shadow p-3 ra">
+            <div class="col-md-3 border shadow p-3 ra mt-md-0 mt-4">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
                     <div class="col-md-7 px-4">
-                        <p class="mb-0" style="font-size: 20px; font-weight: 300;">
+                        <p class="mb-0" style="font-size: 20px; font-weight: 500;color: #34b14e;">
                             Ziva
                         </p>
-                        <p>
+                        <p style=" font-weight: 500;">
                             21 years, Student
                         </p>
                     </div>
@@ -85,17 +85,17 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 border shadow p-3 ra">
+            <div class="col-md-3 border shadow p-3 ra mt-md-0 mt-4">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
 
                     </div>
                     <div class="col-md-7 px-4 ">
-                        <p class="mb-0" style="font-size: 20px; font-weight: 300;">
+                        <p class="mb-0" style="font-size: 20px; font-weight: 500;color: #34b14e;">
                             Ziva
                         </p>
-                        <p>
+                        <p style=" font-weight: 500;">
                             21 years, Student
                         </p>
                     </div>
@@ -117,21 +117,21 @@
         <form action="" method="post">
             <div class="row  d-flex justify-content-around align-item-center">
                 <div class="col-md-10 mb-2" ;>
-                    <textarea class="form-control  " placeholder="Your Feedback"></textarea>
+                    <textarea class="form-control  " placeholder="Your Feedback" required></textarea>
                 </div>
             </div>
-   <div class="col-md-4 rating" onclick="handleRating(event) ">
+            <div class="col-md-4 rating" onclick="handleRating(event)" required>
                 <span class="star" data-value="1">&#x2606;</span>
                 <span class="star" data-value="2">&#x2606;</span>
                 <span class="star" data-value="3">&#x2606;</span>
                 <span class="star" data-value="4">&#x2606;</span>
                 <span class="star" data-value="5">&#x2606;</span>
+            <input type="hidden" name="rating" id="selectedRating" value="0" >
             </div>
-            <input type="hidden" name="rating" id="selectedRating" value="0">
             <div class="mb-3">
-                    <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+                <button type="submit" class="btn btn-primary" value="submit">Submit</button>
             </div>
-         
+
         </form>
     </div>
 </section>
@@ -140,22 +140,23 @@
 <section>
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-md-5">
+            <div class="col-md-5 mt-md-0 mt-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    allowfullscreen style="max-width:100%"></iframe>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 mt-md-0 mt-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    allowfullscreen style="max-width:100%"></iframe>
             </div>
         </div>
 
     </div>
 </section>
+
 <script>
     function handleRating(event) {
         if (event.target.classList.contains('star')) {

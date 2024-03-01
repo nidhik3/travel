@@ -47,7 +47,7 @@
         <div class="row d-flex justify-content-around  text-center  pb-4 ">
 
 
-            <div class="col-md-5 border p-0  m-0">
+            <div class="col-md-5 border p-0  m-0  mt-md-0 mt-2 ">
                 <h4 class="p-4 clr">One consultation-10 Minutes
                 </h4>
                 <p class="p-5" style="font-size:20px; font-weight:400;">
@@ -59,7 +59,7 @@
                 </p>
             </div>
 
-            <div class="col-md-5 border p-0  m-0">
+            <div class="col-md-5 border p-0  m-0  mt-md-0 mt-4 ">
                 <h4 class="p-4 clr">Two Consultants – 20 minutes
                 </h4>
                 <p class="p-5" style="font-size:20px; font-weight:400;">
@@ -76,7 +76,7 @@
 
         <div class="row d-flex justify-content-around  text-center ">
 
-            <div class="col-md-5 border p-0  m-0">
+            <div class="col-md-5 border p-0  m-0  mt-md-0 mt-2 ">
                 <h4 class="p-3 clr">Tumor Board Consultation  <br>(3 consultants) – 30 minutes
                 </h4>
                 <p class="p-5" style="font-size:20px; font-weight:400;">

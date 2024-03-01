@@ -6,14 +6,8 @@
 
 </style>
 
-
-
-    
-
-
-
 <section
-  style="background-image: url('assets/nimages/banner.webp');height: 35vh;background-size: cover; position:relative">
+  style="background-image: url('assets/nimages/banner.png');height: 35vh;background-size: cover; position:relative">
   <div class="banner">
     <div class="container h-100">
 
@@ -31,7 +25,7 @@
   <div class="container">
     <div class="row text-center ">
       <div class="col-md-5">
-        <div class="card car">
+        <div class="card car p-4">
           <h4 class="mt-4" style="font-weight: 600; font-size:30px;">APPOINTMENT
           </h4>
           <p class=" mt-2 mb-2" style="font-weight: 450; font-size:23px">OPD Consultation: +91234567890
@@ -62,28 +56,26 @@
     </div>
     <div class="row">
       <div class="col-md-7">
-        <p style="font-size:20px">
-          The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
-          It was the first department of Gastroenterology, in any private hospital, in the state of Rajasthan.
-          <br> It was also the first private hospital of the state to be recognized for super specialty DNB
-          training course by
-          Medical Council of India and presently admits two candidates per year for superspeciality training
-          in
-          Gastroenterology. <br>
-          The department was first in the county, to be recognized by the Indian Society of Gastroenterology,
-          for one year Fellowship in Advanced Therapeutic Endoscopy, for Post D.M. Gastroenterologists. <br>
-          Today, the department stands tall with 35-bed dedicated Gastroenterology Ward for oretically ill.
-          <br>
-          The department is equipped with state-of-the-art endoscopy suite, 24/7 availability of doctor,
-          availability of four endoscopy suites, a dedicated Gastroenterology ICU and two separate
-          Gastroenterology Wards. <br>
-          The Department caters to all gastro-intestinal, hepatic and pancreatico-billary disorders with round
-          the
-          clock emergency OPD,
-          emergency and ICU services for the critically ill patients.
-          It is a high volume tertiary care center for simple to complex and complicated gastrointestinal
-          disease.
-        </p>
+      <p style="font-size:20px">
+    The department of Gastroenterology at Santokba Durlabhji Memorial Hospital was established in 1988.
+    It was the first department of Gastroenterology, in any private hospital, in the state of Rajasthan.
+    <br> It was also the first private hospital of the state to be recognized for super specialty DNB
+    training course by Medical Council of India and presently admits two candidates per year for superspeciality training
+    in Gastroenterology. <br>
+    The department was first in the county, to be recognized by the Indian Society of Gastroenterology,
+    for one year Fellowship in Advanced Therapeutic Endoscopy, for Post D.M. Gastroenterologists. <br>
+    Today, the department stands tall with 35-bed dedicated Gastroenterology Ward for critically ill.
+    <br>
+    The department is equipped with a state-of-the-art endoscopy suite, 24/7 availability of a doctor,
+    availability of four endoscopy suites, a dedicated Gastroenterology ICU, and two separate
+    Gastroenterology Wards. <br>
+    The Department caters to all gastro-intestinal, hepatic, and pancreatico-biliary disorders with round
+    the clock emergency OPD,
+    emergency and ICU services for the critically ill patients.
+    It is a high volume tertiary care center for simple to complex and complicated gastrointestinal
+    disease.
+</p>
+
       </div>
 
 
@@ -105,8 +97,11 @@
 <section class="mt-2" style="background: linear-gradient(270deg,rgba(240,248,253,1) 70%,#565e66 70%);">
   <div class="container  mt-4">
     <div class="row">
-      <div class="col-md-12 d d-flex justify-content-end " >
-        <h4 class=" mb-4" style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">
+      <div class="col-md-6">
+        
+      </div>
+      <div class="col-md-6  d-flex justify-content-end order-md-last" >
+        <h4 class=" mb-4 " style="font-weight: 600; font-size:50px ;color:rgb(21, 50, 66)">
           When we need a gastroenterologist?</h4>
       </div>
     </div>

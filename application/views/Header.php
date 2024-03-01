@@ -16,9 +16,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+
 
     <!-- Vendor CSS Files -->
     <link href="<?php echo base_url(); ?>/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +40,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  crossorigin="anonymous">  -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style1.css">
     <style>
@@ -62,6 +62,14 @@
                 display: block;
             }
 
+            h1 h2 h3 {
+                font-size: 14px;
+            }
+
+            h4 h5 h6 {
+                font-size: 16px;
+            }
+
 
 
 
@@ -77,7 +85,7 @@
 
     <header id="header" class="header d-flex align-items-center addclass nav-down" style="   width:100%;">
 
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-around row p-0 m-0"
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-start row p-0 m-0"
             style="max-width: 100%;margin: auto;">
             <div class="row col-md-12 desk">
                 <a href="<?php echo base_url(); ?>"
@@ -90,62 +98,57 @@
                 <div class="col-md-9 col-6 row d-flex justify-content-between align-items-center"
                     style="padding: 10px 0;">
 
-                    <div class="col-md-3 col-6 box" style="font-weight: 600;">
+                    <div class="col-md-3 col-6 box" style="font-weight: 600;width: auto;">
                         Years served - 50 + <br>
                         Patients served - 5 Million + <br>
                         Served today - 534 <br>
                     </div>
-                    <div class="col-md-3 col-6">
-                        <a class="blink" href="<?php echo base_url('#');?>" style="font-weight: 600;">
+                    <div class="col-md-3 text-center col-6">
+                        <a class="blink " href="<?php echo base_url('#');?>" style="font-weight: 600;">
                             BOOK APPOINTMENT <br>
                             FOR TELECONSULTATION <br>
                             OR CALL ON - 91160-50108
                         </a>
                     </div>
-                    <div class="col-md-2 col-6" style="font-weight: 600; color: #e50000;">
+                    <div class="col-md-2   col-6" style="font-weight: 600; color: #e50000;">
                         <span class="s1">Emergency Number:</span> <br>
                         <a href="<?php echo base_url('#');?>">0141 352 4444</a>
                     </div>
-                    <div class="col-md-2 col-6" style="font-weight: 600; color:#10a02e;">
+                    <div class="col-md-2  col-6" style="font-weight: 600; color:#10a02e;">
                         <span class="s2">Email Us:</span> <br>
                         <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
                     </div>
 
                 </div>
             </div>
+
+
             <div class="mob1">
                 <div class="row col-md-12" style="justify-content: space-around;">
                     <a href="<?php echo base_url(); ?>"
-                        class="logo d-flex align-items-center col-4 justify-content-center" style="padding: 10px 0;">
-                        <!-- 
-        <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
-                        <img src="<?php echo base_url('assets/nimages/logo.png');?> " alt="">
+                        class="logo d-flex align-items-center col-5 justify-content-center" style="padding: 10px 0;">
+                        <img src="<?php echo base_url('assets/nimages/logo.png');?> " alt="" style="max-width: 100%">
                     </a>
-                    <div class="col-7 row d-flex justify-content-around align-items-center" style="padding: 10px 0;">
-
+                    <div class="col-5 row d-flex justify-content-around align-items-center"     style="padding: 4px 0;">
                         <div class=" box p-1" style="font-weight: 600;">
                             Years served - 50 + <br>
                             Patients served - 5 Million + <br>
                             Served today - 534 <br>
                         </div>
-
-
-
                     </div>
-                    <div class="col-12 row d-flex justify-content-between align-items-center" style="padding: 10px 0;">
-                        <div class="col-4">
-                            <a class="blink" href="<?php echo base_url('#');?>" style="font-weight: 600;">
+                    <div class="col row d-flex justify-content-between align-items-center" style="padding: 4px 0;">
+                        <div class="col-4 text-center">
+                            <a class="blink text-center" href="<?php echo base_url('#');?>" style="font-weight: 600;">
                                 BOOK APPOINTMENT <br>
                                 FOR TELECONSULTATION <br>
                                 OR CALL ON - 91160-50108
                             </a>
                         </div>
-
-                        <div class="col-4" style="font-weight: 600; color: #e50000;">
+                        <div class="col-3 text-center" style="font-weight: 600; color: #e50000;">
                             <span class="s1">Emergency Number:</span> <br>
                             <a href="<?php echo base_url('#');?>">0141 352 4444</a>
                         </div>
-                        <div class="col-4" style="font-weight: 600; color:#10a02e;">
+                        <div class="col-2" style="font-weight: 600; color:#10a02e;">
                             <span class="s2">Email Us:</span> <br>
                             <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
                         </div>
@@ -155,7 +158,8 @@
             </div>
 
 
-
+     <!-- ==============================================================================-->
+     <!-- ==============================================================================-->
             <nav id="navbar" class="navbar col-md-12" style="background-color: rgba(0, 0, 0, 0.5);">
 
 
@@ -181,8 +185,8 @@
                 </ul>
             </nav><!-- .navbar -->
 
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-2" style="color: red;"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" style="color: red;"></i>
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-2 pt-2 text-center" style="color: #4F6F52;"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x  pt-2"></i>
 
 
 

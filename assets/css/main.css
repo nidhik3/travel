@@ -11,11 +11,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "Poppins", sans-serif;
+  --font-default:  'system-ui'!important; 
+  --font-primary:  'system-ui'!important; 
+  --font-secondary: 'system-ui'!important; 
 }
 
 /* Colors */
@@ -35,6 +33,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -533,7 +532,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #f26522;
+    background:#86A789;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -589,7 +588,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #f26522;
+    background-color: #4F6F52;
 
   }
 
@@ -632,7 +631,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(242, 101, 34, 0.4);
+    background: rgba(73 141 89 / 18%);;
     z-index: 9996;
   }
 }

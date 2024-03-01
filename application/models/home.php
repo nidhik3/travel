@@ -6,29 +6,32 @@ class Home extends CI_Model {
 	
 	public function insert_data($data)
 	{
-       
-        $this->db->insert('conect',$data);
-		// redirect(current_url());
-	}
+		// echo "<pre>";
+		// print_r($data);
+		// echo "</pre>";
 
-	// public function getrecord()
-	// {
-        
-    //     $this->db->select('*');
-    //     $this->db->from('list');
-    //     $query = $this->db->get()->result();
-	// 	return $query;
-	// 	// redirect(current_url());
-	// }
+       
+        $this->db->insert('appointment',$data);
+	
+	}
 		
-	// public function listrecord()
-	// {
+	public function alldata()
+	 {
         
-    //     $this->db->select('*');
-    //     $this->db->from('list');
-	// 	$this->db->where('id', '3');
-    //     $query = $this->db->get()->result();
-	// 	return $query;
-	// 	// redirect(current_url());
-	// }
+        $this->db->select('*');
+        $this->db->from('appointment');
+        $query = $this->db->get()->result();
+		return $query;
+		
+	}
+	public function sdata($data)
+	 {
+        
+        $this->db->select('*');
+        $this->db->from('appointment');
+
+        $query = $this->db->get()->result();
+		return $query;
+	
+	}
 }
