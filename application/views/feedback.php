@@ -15,8 +15,29 @@
     .selected {
         color: #f2b21b;
     }
+
+    .textbox {
+        width: 100%;
+        height: 7vh;
+        border-radius: 3px;
+        border: 1px solid grey;
+        padding: 4px 8px;
+    }
 </style>
 
+<section class="bannersec" style="background-image: url('assets/nimages/consultants-banner.jpg');">
+    <div class="banner" style="position:relative">
+        <div class="container ">
+            <div class="row text-center ">
+                <div class="col-md-12 bannertxt">
+                    <h4 style="font-size: 30px;">The Hospital That Cares </h4>
+                    <h4 style="font-weight: 700;font-size: 50px;">SANTOKBA INSTITUTE OF GASTROENTEROLOGY </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 <section>
     <div class="container ">
@@ -38,8 +59,8 @@
                 </h4>
             </div>
         </div>
-        <div class="row d-flex justify-content-around ">
-            <div class="col-md-3 border shadow p-3 ra mt-md-0 mt-4">
+        <div class="row d-flex justify-content-around mx-md-0 mx-4">
+            <div class="col-md-3 border shadow p-3 ra mt-md-0 mt-4  ">
                 <div class="row">
                     <div class="col-md-2 ">
                         <img src="assets/nimages/f1.png" alt="" width="50px" ;>
@@ -47,7 +68,7 @@
                     </div>
                     <div class="col-md-7 px-4">
                         <p class="mb-0" style="font-size: 20px; font-weight: 500;color: #34b14e;">
-                            Ziva
+                            Samy
                         </p>
                         <p style=" font-weight: 500;">
                             21 years, Student
@@ -70,7 +91,7 @@
                     </div>
                     <div class="col-md-7 px-4">
                         <p class="mb-0" style="font-size: 20px; font-weight: 500;color: #34b14e;">
-                            Ziva
+                            Yuzi
                         </p>
                         <p style=" font-weight: 500;">
                             21 years, Student
@@ -112,49 +133,62 @@
     </div>
 </section>
 
-<section>
+<section style="background-color: #f5f3ec;">
     <div class="container  text-center ">
-        <form action="" method="post">
-            <div class="row  d-flex justify-content-around align-item-center">
-                <div class="col-md-10 mb-2" ;>
-                    <textarea class="form-control  " placeholder="Your Feedback" required></textarea>
+        <form action="feedback/insert " method="post" class="p-5">
+            <div class="row d-flex justify-content-between align-item-center">
+                <div class="col-md-3 mb-4  text-center ">
+                    <input type="text" class="textbox" name="Name" placeholder="Name" required>
+                </div>
+                <div class="col-md-3 mb-4  text-center ">
+                    <input type="text" class="textbox" name="Profession" placeholder="Profession">
+                </div>
+                <div class="col-md-3 mb-4  text-center ">
+                    <input type="text" class="textbox" name="City" placeholder="City">
                 </div>
             </div>
-            <div class="col-md-4 rating" onclick="handleRating(event)" required>
-                <span class="star" data-value="1">&#x2606;</span>
-                <span class="star" data-value="2">&#x2606;</span>
-                <span class="star" data-value="3">&#x2606;</span>
-                <span class="star" data-value="4">&#x2606;</span>
-                <span class="star" data-value="5">&#x2606;</span>
-            <input type="hidden" name="rating" id="selectedRating" value="0" >
+
+            <div class="row  d-flex justify-content-around align-item-center">
+                <div class="col-md-12 mb-2" ;>
+                    <textarea class="form-control" name="Feedback" placeholder="Your Feedback" required></textarea>
+                </div>
             </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+            <div class="row">
+                <div class="col-md-4  rating" style="text-align: left;" onclick="handleRating(event)" required>
+                    <span class="star" data-value="1">&#x2606;</span>
+                    <span class="star" data-value="2">&#x2606;</span>
+                    <span class="star" data-value="3">&#x2606;</span>
+                    <span class="star" data-value="4">&#x2606;</span>
+                    <span class="star" data-value="5">&#x2606;</span>
+                    <input type="hidden" name="rating" id="selectedRating" value="0">
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-gradient " value="submit"
+                    style=" width:10vw;height:7vh;border-radius:35px ;">SUBMIT</button>
             </div>
 
         </form>
     </div>
 </section>
-
-
 <section>
-    <div class="container">
-        <div class="row justify-content-around">
-            <div class="col-md-5 mt-md-0 mt-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen style="max-width:100%"></iframe>
-            </div>
-            <div class="col-md-5 mt-md-0 mt-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen style="max-width:100%"></iframe>
-            </div>
+<div class="container">
+    <div class="row justify-content-around">
+        <div class="col-md-5 mt-md-0 mt-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jj7LtCaZooY?si=06ptB6AKte4tI_u9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="max-width:100%"></iframe>
         </div>
-
+        <div class="col-md-5 mt-md-0 mt-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7APf6p0Dkd0?si=QYISj7phacOVXX5Y"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="max-width:100%"></iframe>
+        </div>
     </div>
+
+</div>
 </section>
 
 <script>

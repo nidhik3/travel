@@ -1,10 +1,29 @@
 <style>
     .clr {
-        background-color: rgb(206, 239, 223);
-        /* background-color: #c9e7fa; */
+        background-color: #1A7645;
+        color:white;
+    }
+    .clrs {
+      background-color: #194c60; 
+        color:white;
     }
   
 </style>
+
+<section class="bannersec" style="background-image: url('assets/nimages/bn1.jpg');">
+    <div class="banner" style="position:relative">
+        <div class="container ">
+            <div class="row text-center ">
+                <div class="col-md-12 bannertxt">
+                    <h4 style="font-size: 30px; color:black;">The Hospital That Cares </h4>
+                    <h4 style="font-weight: 700;font-size: 50px; color:grey;">CONSULTATION </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <section>
     <div class="container">
         <!-- <div class="row text-center d-flex justify-content-around">
@@ -54,7 +73,7 @@
                     Max. 3 consultation/day <br>
                     (As per the patient’s choice)
                 </p>
-                <p class=" p-4  m-0 clr" style="font-size:20px; font-weight:500;">
+                <p class=" p-4  m-0 clrs" style="font-size:20px; font-weight:500;">
                     Charges=12345
                 </p>
             </div>
@@ -68,7 +87,7 @@
                 <p>
 
                 </p>
-                <p class=" p-4  m-0 clr" style="font-size:20px; font-weight:500;">
+                <p class=" p-4  m-0 clrs" style="font-size:20px; font-weight:500;">
                     Charges=12345
                 </p>
             </div>
@@ -82,7 +101,7 @@
                 <p class="p-5" style="font-size:20px; font-weight:400;">
                     GI Medicine + GI Surgery + Oncology
                 </p>
-                <p class=" p-4  m-0 clr" style="font-size:20px; font-weight:500;">
+                <p class=" p-4  m-0 clrs" style="font-size:20px; font-weight:500;">
                     Charges=12345
                 </p>
             </div>

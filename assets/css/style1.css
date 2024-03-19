@@ -24,10 +24,19 @@ a:hover {
 
 .tag:hover {
     text-decoration: none;
-    color: #02c32a !important;
+    color: #34b14e !important;
+}
+.tags:hover {
+    text-decoration: none;
+    color: white!important;
 }
 
 .tag {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 0px 10px !important;
+} 
+.tags {
     text-decoration: none;
     color: white;
     padding: 0px 20px 0px 10px !important;
@@ -61,7 +70,6 @@ color: white;
     z-index: 1;
 
 }*/
-
 
 
 
@@ -113,7 +121,7 @@ color: white;
 }
 
 .navbar .item a {
-    justify-content: center;
+    justify-content: left;
     display: flex;
     width: 100%;
     border-right: 1px solid #fff !important;
@@ -128,9 +136,10 @@ color: white;
 
 }
 .car {
-    height: 50vh;
-    border: 2px solid gray;
+    height: 100%;
+    border: 2px solid green;
     background-color: rgba(245, 250, 252, .5);
+    color:black !important;;
     /* background: linear-gradient(to right, #1ba738 0%, #0ba9a8 100%); */
 }
 
@@ -138,6 +147,25 @@ color: white;
     color: black;
 }
 
+textarea.form-control {
+    min-height: calc(6.5em + 0.75rem + 2px);
+}
+.bannersec{
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
 
-
-
+.btn-gradient{
+    background: linear-gradient(to right, #02c32a 0%, #0152ae 100%);
+     color:white; 
+     font-size: 18px;
+     font-weight: 400;
+}
+.btn-gradient:hover{
+    background: linear-gradient(to right, #0152ae 0%, #02c32a 100%);
+    color:white;
+}

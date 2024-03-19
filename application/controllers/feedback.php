@@ -25,6 +25,22 @@ class feedback extends CI_Controller {
 		$this->load->view('feedback');
 		$this->load->view('footer');
 	}
+	public function insert()
+{
+    print_r($_POST);  // Print form data for debugging purposes
+
+    $this->load->model('home');
+    $data['Name'] = $this->input->post('Name');
+    $data['Profession'] = $this->input->post('Profession');
+    $data['City'] = $this->input->post('City');
+    $data['Feedback'] = $this->input->post('Feedback');
+ 
+
+    $this->home->insert($data); 
+	redirect(base_url(''));
+
+}
+
 
 }
 

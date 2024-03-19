@@ -20,9 +20,14 @@ class appointment extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->model('home');
+        $data['main']= $this->home->alldata();
+		// print_r($data['main']);
+
+		// $data['doctor'] = $this->home1->getDoctorProfile();
 		$this->load->helper('url');
 		$this->load->view('Header');
-		$this->load->view('appointment');
+		$this->load->view('appointment',$data);
 		$this->load->view('footer');
 	}
 	 
@@ -31,14 +36,14 @@ class appointment extends CI_Controller {
     print_r($_POST);  // Print form data for debugging purposes
 
     $this->load->model('home');
-    $data['FirstName'] = $this->input->post('fname');
-    $data['LastName'] = $this->input->post('lname');
-    $data['Gender'] = $this->input->post('gender');
-    $data['PhoneNo'] = $this->input->post('phone');
-    $data['Email'] = $this->input->post('email');
-    $data['Date'] = $this->input->post('appointmentDate');
-    $data['Query'] = $this->input->post('msg');
-//    print_r($_FILES['img']);
+    $data['FirstName'] = $this->input->post('FirstName');
+    $data['LastName'] = $this->input->post('LastName');
+    $data['Gender'] = $this->input->post('Gender');
+    $data['PhoneNo'] = $this->input->post('Phone');
+    $data['Email'] = $this->input->post('Email');
+    $data['Date'] = $this->input->post('AppointmentDate');
+    $data['Query'] = $this->input->post('Query');
+     //    print_r($_FILES['img']);
 	// die();
     // Handle file upload
     if (!empty($_FILES['img']['name'])) {
@@ -57,10 +62,124 @@ class appointment extends CI_Controller {
     } else {
         $data['File'] = '';  // Set a default value if no file is uploaded
     }
-	print_r($data['File']);
-    $this->home->insert_data($data);
+	// print_r($data['File']);
+    $this->home->insert_data($data); 
+    $this->sendMail($data); 
 
-	echo "<img src='" . base_url('Upload/' . $data['File']) . "' height='100px' width='100px'>";
+	 
 
+	// echo "<img src='" . base_url('Upload/' . $data['File']) . "' height='100px' width='100px'>";
+
+// Prepare response data
+$response = array(
+	'success' => true,
+	'message' => 'Appointment booked successfully!'
+);
+
+// Send JSON response
+header('Content-Type: application/json');
+echo json_encode($response);
+// redirect(base_url(''));
 }
+
+
+public function sendMail($data)
+	{
+		if (empty($_POST)) {
+			redirect(base_url());
+		}
+
+		// Storing google recaptcha response
+		// in $recaptcha variable
+
+		$this->load->library('email');
+
+		$config['protocol'] = 'smtp';
+		$config['smtp_host'] = 'ssl://smtp.gmail.com';
+		$config['smtp_port'] = '465';
+		$config['smtp_timeout'] = '7';
+		$config['smtp_user'] = 'theodinjaipur@gmail.com';
+		$config['smtp_pass'] = 'ilhphiqmihlvezxk';
+		$config['charset'] = 'utf-8';
+		$config['newline'] = "\r\n";
+		$config['mailtype'] = 'html'; // or html
+		$config['validation'] = TRUE; // bool whether to validate email or not
+
+		$this->email->initialize($config);
+
+		$from = 'theodinjaipur@gmail.com';
+		 $to = 'nidhikatkani3@gmail.com';
+		// $to = 'team@intercharge.in';
+
+		$subject = 'Subscribe mailbox';
+		// $message = "Dear " . $data['FirstName'] . " " . $data['LastName'] . ",\n\n The appointment is scheduled for " . $data['Date'] . ".\nSDMH";
+		unset($_POST['g-recaptcha-response']);
+		$message = "User " . $data['FirstName'] . " " . $data['LastName'] . ",<br>Booked an appointment scheduled for " . $data['Date'] . "<br>SDMH<br>";
+
+		foreach ($_POST as $key => $value) {
+			$message = $message . $key . '- ' . $value . '<br>';
+		}
+
+
+
+		$this->email->set_newline("\r\n");
+		$this->email->from($from);
+		$this->email->to($to);
+		$this->email->subject($subject);
+		$this->email->message($message);
+
+		$this->email->send();
+		$this->sendMail_user($data); 
+		redirect(base_url(''));
+
+	}
+public function sendMail_user($data)
+	{
+		if (empty($_POST)) {
+			redirect(base_url());
+		}
+
+		
+		$this->load->library('email');
+
+		$config['protocol'] = 'smtp';
+		$config['smtp_host'] = 'ssl://smtp.gmail.com';
+		$config['smtp_port'] = '465';
+		$config['smtp_timeout'] = '7';
+		$config['smtp_user'] = 'theodinjaipur@gmail.com';
+		$config['smtp_pass'] = 'ilhphiqmihlvezxk';
+		$config['charset'] = 'utf-8';
+		$config['newline'] = "\r\n";
+		$config['mailtype'] = 'html'; // or html
+		$config['validation'] = TRUE; // bool whether to validate email or not
+
+		$this->email->initialize($config);
+
+		$from = 'theodinjaipur@gmail.com';
+		 $to =$data['Email'];
+		// $to = 'team@intercharge.in';
+
+		$subject = 'Subscribe mailbox';
+		$message = "Dear " . $data['FirstName'] . " " . $data['LastName'] . ",<br>Thank you for booking an appointment. Your appointment is scheduled for " . $data['Date'] . ". We look forward to seeing you.<br>Best regards,<br>SDMH<br>";
+
+
+		unset($_POST['g-recaptcha-response']);
+
+		foreach ($_POST as $key => $value) {
+			$message = $message . $key . '- ' . $value . '<br>';
+		}
+
+
+
+		$this->email->set_newline("\r\n");
+		$this->email->from($from);
+		$this->email->to($to);
+		$this->email->subject($subject);
+		$this->email->message($message);
+
+		$this->email->send();
+		
+
+	}
+
 }

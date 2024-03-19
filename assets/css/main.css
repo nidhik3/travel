@@ -62,7 +62,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -165,8 +165,8 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  left: 15px;
-  bottom: -15px;
+  right: 15px;
+  bottom: -13px;
   z-index: 99999;
   background: var(--color-secondary);
   width: 44px;
@@ -189,7 +189,7 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 55px;
 }
 
 /*--------------------------------------------------------------
@@ -382,7 +382,7 @@ section {
 
   .navbar>ul>li {
     white-space: nowrap;
-    padding: 10px;
+    padding: 11px;
   }
 
   .navbar a,

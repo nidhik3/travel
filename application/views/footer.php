@@ -1,74 +1,74 @@
 <style>
-    @media (max-width: 767px) {
-        .mt-2 {
-            text-align: center;
-        }
-
-        .tc {
-            text-align: center;
-        }
+@media (max-width: 767px) {
+    .mt-2 {
+        text-align: center;
     }
 
-    .social_icon {
-        font-size: 25px;
-        color: #f26522 !important;
-        display: none;
+    .tc {
+        text-align: center;
     }
+}
 
-    hr {
-        border-top: 2px solid;
-        opacity: 1;
-    }
+.social_icon {
+    font-size: 25px;
+    color: #f26522 !important;
+    display: none;
+}
 
-    .formPopup {
-        background: rgba(0, 0, 0, 0.7);
+hr {
+    border-top: 2px solid;
+    opacity: 1;
+}
 
-        width: 100%;
-        height: 100vh;
-        display: none;
-        position: fixed;
-        left: 50%;
-        top: 0%;
-        transform: translate(-50%, 5%);
-        border: 3px solid #999999;
-        z-index: 4;
+.formPopup {
+    background: rgba(0, 0, 0, 0.7);
 
-    }
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 4;
 
-    .formContainer {
-        max-width: 700px;
-        padding: 20px;
-        background-color: #f26522;
-    }
+}
+
+.formContainer {
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f26522;
+}
 
 
 
-    .formContainer input[type=text]:focus,
-    .formContainer input[type=password]:focus {
-        background-color: #ddd;
-        outline: none;
-    }
+.formContainer input[type=text]:focus,
+.formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
 
-    .formContainer .btn {
-        padding: 12px 20px;
-        border: none;
+.formContainer .btn {
+    padding: 12px 20px;
+    border: none;
 
-        color: #fff;
-        cursor: pointer;
-        width: 100%;
-        margin-bottom: 15px;
-        opacity: 0.8;
-    }
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
 
-    .formContainer .cancel {
+.formContainer .cancel {
 
-        width: 50px;
-    }
+    width: 50px;
+}
 
-    .formContainer .btn:hover,
-    .openButton:hover {
-        opacity: 1;
-    }
+.formContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
 </style>
 
 <div class="loginPopup">
@@ -285,34 +285,34 @@
 
 <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<div id="preloader"></div>
+
 
 <!-- Vendor JS Files -->
 <script>
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll <= 500) {
-            $(".addclass").removeClass("addclass").addClass("stick");
-        }
-    })
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll <= 500) {
+        $(".addclass").removeClass("addclass").addClass("stick");
+    }
+})
 </script>
 
 <script>
-    function openForm() {
-        document.getElementById("popupForm").style.display = "block";
-    }
+function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+}
 
-    function closeForm() {
-        document.getElementById("popupForm").style.display = "none";
-    }
+function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+}
 
-    function openForm1() {
-        document.getElementById("popupForm1").style.display = "block";
-    }
+function openForm1() {
+    document.getElementById("popupForm1").style.display = "block";
+}
 
-    function closeForm1() {
-        document.getElementById("popupForm1").style.display = "none";
-    }
+function closeForm1() {
+    document.getElementById("popupForm1").style.display = "none";
+}
 </script>
 
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -328,40 +328,48 @@
 
 
 <style>
-    #footer {
-        background: rgba(1, 100, 152, 0.5);
-        padding: 15px 0;
-    }
-    .social{
-        height:5vh;
-        border-radius:10px
-    }
-    
-    </style>
-    
-    
-    <footer id=footer>
-        <div class="icon d-flex flex-column" style="position: fixed;bottom:10px; right:15px;">
-            <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class="mt-2">
-                <img src="assets/nlogo/insta.png" alt="" class="social" >
-            </a>
-            <a href="https://www.facebook.com/sdmhjaipur/" class="mt-2">
-                <img src="assets/nlogo/fb.png" alt="" class="social" >
-            </a>
-            <a href="#" class="w social mt-2">
-                <img src="assets/nlogo/wa.png" alt="" class="social">
-    
-            </a>
+#footer {
+    background: #194c60;
+    padding: 15px 0;
+    color: white;
+}
+
+.social {
+    height: 3vh;
+    border-radius: 8px
+}
+</style>
+
+
+<footer id=footer>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 d-flex align-items-center">© Copyright 2024. All rights reserved by:
+            <a style="color:white;" href="#">SDMH</a>
         </div>
-        <div class="container text-center">
-           
-                <span> ©Copyright 2024. All right reserved by:</span>
-                 &nbsp;<a href="#"> SDMH</a>
-           
-    
-            
+        <div class="col-md-2 d-flex justify-content-center">
+            <div class="icon">
+                <a href="https://www.instagram.com/sdmhjaipur/?hl=en" style="margin-right:3px">
+                    <img src="assets/nlogo/insta.png" alt="" class="social">
+                </a>
+                <a href="https://www.facebook.com/sdmhjaipur/" style="margin-right:3px">
+                    <img src="assets/nlogo/fb.png" alt="" class="social">
+                </a>
+                <a href="https://twitter.com/sdmh_hospital?lang=en" style="margin-right:3px">
+                    <img src="assets/nlogo/tw.png" alt="" class="social">
+                </a>
+                <a href="#" class="w social" style="margin-right:3px">
+                    <img src="assets/nlogo/wa.png" alt="" class="social">
+                </a>
+            </div>
         </div>
-    </footer>
+    </div>
+</div>
+
+
+
+</footer>
 
 </body>
 

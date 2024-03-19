@@ -21,10 +21,18 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('home');
-
-		$data['all'] = $this->home->alldata();
+		$this->load->model('Home1');
+	
+		// Call the method to get the doctor's profile data for the specified doctor_id
+		$data['doctor'] = $this->Home1->alldata();
+		// echo "<pre>";
+		// echo "test";
+		//   print_r($data['doctor']);
+		//   echo "</pre>";
+		  
+		// $data['all'] = $this->home->alldata();
 		$this->load->helper('url');
-		$this->load->view('Header');
+		$this->load->view('Header',$data);
 		$this->load->view('main');
 		$this->load->view('footer');
 	}

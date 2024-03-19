@@ -40,41 +40,41 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
   crossorigin="anonymous">  -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/style1.css">
+
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style1.css">
     <style>
-        .mob1 {
+    .mob1 {
+        display: none;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+    }
+
+    @media (max-width: 680px) {
+        .desk {
             display: none;
         }
 
-        a:hover {
-            text-decoration: none !important;
+        .mob1 {
+            display: block;
         }
 
-        @media (max-width: 680px) {
-            .desk {
-                display: none;
-            }
-
-            .mob1 {
-                display: block;
-            }
-
-            h1 h2 h3 {
-                font-size: 14px;
-            }
-
-            h4 h5 h6 {
-                font-size: 16px;
-            }
-
-
-
-
-
+        h1 h2 h3 {
+            font-size: 14px;
         }
+
+        h4 h5 h6 {
+            font-size: 16px;
+        }
+
+    }
+
+
     </style>
 </head>
 
@@ -92,7 +92,7 @@
                     class="logo d-flex align-items-center col-md-3 col-6 justify-content-center"
                     style="padding: 10px 0;">
                     <!-- 
-        <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
+                  <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
                     <img src="<?php echo base_url('assets/nimages/logo.png');?> " alt="">
                 </a>
                 <div class="col-md-9 col-6 row d-flex justify-content-between align-items-center"
@@ -104,7 +104,7 @@
                         Served today - 534 <br>
                     </div>
                     <div class="col-md-3 text-center col-6">
-                        <a class="blink " href="<?php echo base_url('#');?>" style="font-weight: 600;">
+                        <a class="blink " href="<?php echo base_url('appointment');?>" style="font-weight: 600;">
                             BOOK APPOINTMENT <br>
                             FOR TELECONSULTATION <br>
                             OR CALL ON - 91160-50108
@@ -112,11 +112,11 @@
                     </div>
                     <div class="col-md-2   col-6" style="font-weight: 600; color: #e50000;">
                         <span class="s1">Emergency Number:</span> <br>
-                        <a href="<?php echo base_url('#');?>">0141 352 4444</a>
+                        <span  style="font-weight: 600; color: black;">0141 352 4444</span>
                     </div>
                     <div class="col-md-2  col-6" style="font-weight: 600; color:#10a02e;">
                         <span class="s2">Email Us:</span> <br>
-                        <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
+                        <a href="<?php echo base_url('mailto:enquiry@sdmh.in');?>">info@sdmh.in</a>
                     </div>
 
                 </div>
@@ -129,58 +129,63 @@
                         class="logo d-flex align-items-center col-5 justify-content-center" style="padding: 10px 0;">
                         <img src="<?php echo base_url('assets/nimages/logo.png');?> " alt="" style="max-width: 100%">
                     </a>
-                    <div class="col-5 row d-flex justify-content-around align-items-center"     style="padding: 4px 0;">
+                    <div class="col-5 row d-flex justify-content-around align-items-center" style="padding: 4px 0;">
                         <div class=" box p-1" style="font-weight: 600;">
                             Years served - 50 + <br>
                             Patients served - 5 Million + <br>
                             Served today - 534 <br>
                         </div>
                     </div>
-                    <div class="col row d-flex justify-content-between align-items-center" style="padding: 4px 0;">
-                        <div class="col-4 text-center">
-                            <a class="blink text-center" href="<?php echo base_url('#');?>" style="font-weight: 600;">
+                    <div class="col row d-flex align-items-center" style="padding: 4px 0;">
+                        <div class="col-7 text-center">
+                            <a class="blink text-center" href="<?php echo base_url('#');?>" style="font-weight: 400;">
                                 BOOK APPOINTMENT <br>
                                 FOR TELECONSULTATION <br>
                                 OR CALL ON - 91160-50108
                             </a>
                         </div>
-                        <div class="col-3 text-center" style="font-weight: 600; color: #e50000;">
+                        <div class="col-4 text-center" style="font-weight: 600; color: #e50000;">
                             <span class="s1">Emergency Number:</span> <br>
                             <a href="<?php echo base_url('#');?>">0141 352 4444</a>
                         </div>
-                        <div class="col-2" style="font-weight: 600; color:#10a02e;">
+                        <!-- <div class="col-2" style="font-weight: 600; color:#10a02e;">
                             <span class="s2">Email Us:</span> <br>
                             <a href="<?php echo base_url('#');?>">info@sdmh.in</a>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
             </div>
 
 
-     <!-- ==============================================================================-->
-     <!-- ==============================================================================-->
-            <nav id="navbar" class="navbar col-md-12" style="background-color: rgba(0, 0, 0, 0.5);">
+            <!-- ==============================================================================-->
+            <!-- ==============================================================================-->
+
+            <!-- <nav id="navbar" class="navbar col-md-12" style="background-color: rgba(0, 0, 0, 0.5);"> -->
+
+            <nav id="navbar" class="navbar col-md-12 " style="background-color: rgba(0, 0, 0, 0.5);position:absolute;top:95px">
 
 
                 <ul class="item" style="width: 100%; justify-content: center;">
-                    <li><a class="tag " href="<?php echo base_url('intro');?>">INTRODUCTION</a></li>
-                    <li class="dropdown "><a class="tag " href="#">PROFILE<i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li><a class="tag " href="<?php echo base_url('intro');?>">Introduction</a></li>
+                    <li class="dropdown" style="text-align: left;">
+                        <a class="tags" >Profile <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <?php if (!empty($doctor)): ?>
                         <ul>
-                            <li><a href="<?php echo base_url('profile'); ?>">Dr Anurag Govil</a></li>
-                            <li><a href="<?php echo base_url('profile'); ?>">Dr Dinesh Agrawal
-                                </a></li>
-                            <li><a href="<?php echo base_url('profile'); ?>">Dr Nikhil Atolia</a></li>
-                            <li><a href="<?php echo base_url('profile'); ?>">Dr Sandeep Vaishnav</a></li>
+                            <?php foreach ($doctor as $doctor1): ?>
+                            <li><a
+                                    href="<?php echo base_url('profile/index') . '/' . $doctor1['doctor_id']; ?>"><?php echo $doctor1['Dname']; ?></a>
+                            </li>
+                            <?php endforeach; ?>
                         </ul>
+                        <?php endif; ?>
                     </li>
                     <!-- <li><a class="tag" href="<?php echo base_url('');?>">PROFILE</a></li> -->
-                    <li><a class="tag" href="<?php echo base_url('appointment');?>">APPOINTMENTS</a></li>
-                    <li> <a class="tag" href="<?php echo base_url('gallery');?>">GALLERY</a></li>
-                    <li><a class="tag" href="<?php echo base_url('feedback');?>">FEEDBACK</a></li>
+                    <li><a class="tag" href="<?php echo base_url('appointment');?>">Appointments</a></li>
+                    <li> <a class="tag" href="<?php echo base_url('gallery');?>">Gallery</a></li>
+                    <li><a class="tag" href="<?php echo base_url('feedback');?>">Feedback</a></li>
                     <!-- <li><a class="tag" href="<?php echo base_url('#');?>">PROCEDURE</a></li> -->
-                    <li><a class="tag" href="<?php echo base_url('consultation');?>">CONSULTATION</a></li>
+                    <li><a class="tag" style="border-right:transparent !important;" href="<?php echo base_url('consultation');?>">Consultation</a></li>
 
                 </ul>
             </nav><!-- .navbar -->
