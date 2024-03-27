@@ -24,9 +24,18 @@ class appointment extends CI_Controller {
         $data['main']= $this->home->alldata();
 		// print_r($data['main']);
 
+		
+		
+		$this->load->model('Home1');
+	
+		// Call the method to get the doctor's profile data for the specified doctor_id
+		$data['doctor'] = $this->Home1->alldata();
+
+
 		// $data['doctor'] = $this->home1->getDoctorProfile();
+		
 		$this->load->helper('url');
-		$this->load->view('Header');
+		$this->load->view('Header',$data);
 		$this->load->view('appointment',$data);
 		$this->load->view('footer');
 	}
@@ -36,32 +45,40 @@ class appointment extends CI_Controller {
     print_r($_POST);  // Print form data for debugging purposes
 
     $this->load->model('home');
-    $data['FirstName'] = $this->input->post('FirstName');
-    $data['LastName'] = $this->input->post('LastName');
-    $data['Gender'] = $this->input->post('Gender');
-    $data['PhoneNo'] = $this->input->post('Phone');
-    $data['Email'] = $this->input->post('Email');
-    $data['Date'] = $this->input->post('AppointmentDate');
-    $data['Query'] = $this->input->post('Query');
+    $data['AppointmentDate1'] = $this->input->post('AppointmentDate1');
+    $data['AppointmentDate2'] = $this->input->post('AppointmentDate2');
+    $data['AppointmentDate3'] = $this->input->post('AppointmentDate3');
+    $data['patient_name'] = $this->input->post('patient_name');
+    $data['patient_mob'] = $this->input->post('patient_mob');
+    $data['patient_email'] = $this->input->post('patient_email');
+    $data['appointment_person_name'] = $this->input->post('appointment_person_name');
+    $data['person_mob'] = $this->input->post('person_mob');
+    $data['relation_with_patient'] = $this->input->post('relation_with_patient');
+    $data['name_of_father/husband'] = $this->input->post('name_of_father/husband');
+    $data['UHID'] = $this->input->post('UHID');  $data['Gender'] = $this->input->post('Gender');
+    $data['Address'] = $this->input->post('Address');
+    $data['city'] = $this->input->post('city');
+    $data['Message'] = $this->input->post('Message');
+  
      //    print_r($_FILES['img']);
 	// die();
     // Handle file upload
-    if (!empty($_FILES['img']['name'])) {
-        $config['upload_path'] = 'Upload';  // Change this to the actual path on your server
-        $config['allowed_types'] = 'gif|jpg|png|pdf';  // Specify allowed file types
-        $config['max_size'] = 2048;  // Specify max file size in KB
+    // if (!empty($_FILES['img']['name'])) {
+    //     $config['upload_path'] = 'Upload';  // Change this to the actual path on your server
+    //     $config['allowed_types'] = 'gif|jpg|png|pdf';  // Specify allowed file types
+    //     $config['max_size'] = 2048;  // Specify max file size in KB
 	
-        $this->load->library('upload', $config);
+    //     $this->load->library('upload', $config);
 
-        if ($this->upload->do_upload('img')) {
-            $data['File'] = $this->upload->data('file_name');
-        } else {
-            $error = array('error' => $this->upload->display_errors());
-            print_r($error);  // Print any upload errors for debugging
-        }
-    } else {
-        $data['File'] = '';  // Set a default value if no file is uploaded
-    }
+    //     if ($this->upload->do_upload('img')) {
+    //         $data['File'] = $this->upload->data('file_name');
+    //     } else {
+    //         $error = array('error' => $this->upload->display_errors());
+    //         print_r($error);  // Print any upload errors for debugging
+    //     }
+    // } else {
+    //     $data['File'] = '';  // Set a default value if no file is uploaded
+    // }
 	// print_r($data['File']);
     $this->home->insert_data($data); 
     $this->sendMail($data); 
@@ -114,7 +131,7 @@ public function sendMail($data)
 		$subject = 'Subscribe mailbox';
 		// $message = "Dear " . $data['FirstName'] . " " . $data['LastName'] . ",\n\n The appointment is scheduled for " . $data['Date'] . ".\nSDMH";
 		unset($_POST['g-recaptcha-response']);
-		$message = "User " . $data['FirstName'] . " " . $data['LastName'] . ",<br>Booked an appointment scheduled for " . $data['Date'] . "<br>SDMH<br>";
+		$message = "User " . $data['patient_name'] . " " . ",<br>Booked an appointment scheduled for " . $data['AppointmentDate1'] . "<br>SDMH<br>";
 
 		foreach ($_POST as $key => $value) {
 			$message = $message . $key . '- ' . $value . '<br>';
@@ -160,7 +177,7 @@ public function sendMail_user($data)
 		// $to = 'team@intercharge.in';
 
 		$subject = 'Subscribe mailbox';
-		$message = "Dear " . $data['FirstName'] . " " . $data['LastName'] . ",<br>Thank you for booking an appointment. Your appointment is scheduled for " . $data['Date'] . ". We look forward to seeing you.<br>Best regards,<br>SDMH<br>";
+		$message = "Dear " . $data['patient_name'] . " " .",<br>Thank you for booking an appointment. Your appointment is scheduled for " . $data['AppointmentDate1'] . ". We look forward to seeing you.<br>Best regards,<br>SDMH<br>";
 
 
 		unset($_POST['g-recaptcha-response']);

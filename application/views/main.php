@@ -14,7 +14,7 @@
     
             <div class="row text-center ">
                 <div class="col-md-12 bannertxt">
-                    <h4 style="font-size: 30px;color:green;">The Hospital That Cares </h4>
+                    <h4 style="font-size: 25px;font-weight: 300;color:green;">The Hospital That Cares </h4>
                     <h4 style="font-weight: 900;font-size: 40px;color:green;">SANTOKBA INSTITUTE OF GASTROENTEROLOGY </h4>
                    
                 </div>
@@ -29,7 +29,7 @@
         <div class="container ">
              <div class="row text-center ">
                 <div class="col-md-12 bannertxt">
-                    <h4 style="font-size: 30px;">The Hospital That Cares </h4>
+                    <h4 style="font-size: 25px;font-weight: 300;">The Hospital That Cares </h4>
                     <h4 style="font-weight: 700;font-size: 50px;">SANTOKBA INSTITUTE OF GASTROENTEROLOGY </h4>
                 </div>
             </div>

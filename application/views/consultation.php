@@ -15,8 +15,8 @@
         <div class="container ">
             <div class="row text-center ">
                 <div class="col-md-12 bannertxt">
-                    <h4 style="font-size: 30px; color:black;">The Hospital That Cares </h4>
-                    <h4 style="font-weight: 700;font-size: 50px; color:grey;">CONSULTATION </h4>
+                    <h4 style="font-size: 25px;font-weight: 300; ">The Hospital That Cares </h4>
+                    <h4 style="font-weight: 700;font-size: 50px;">CONSULTATION </h4>
                 </div>
             </div>
         </div>

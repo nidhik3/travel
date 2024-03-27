@@ -71,7 +71,7 @@ hr {
 }
 </style>
 
-<div class="loginPopup">
+<!-- <div class="loginPopup">
     <div class="formPopup" id="popupForm1">
         <div class=" d-flex justify-content-center" style="height:100vh;align-items:center;">
             <div class="formContainer text-center">
@@ -183,7 +183,9 @@ hr {
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+
 <!-- <footer class="footer-no-negative wf-section">
     <div>
         <div class="container">
@@ -350,16 +352,16 @@ function closeForm1() {
         </div>
         <div class="col-md-2 d-flex justify-content-center">
             <div class="icon">
-                <a href="https://www.instagram.com/sdmhjaipur/?hl=en" style="margin-right:3px">
+                <a href="https://www.instagram.com/sdmhjaipur/?hl=en" class="icon_a"  style="margin-right:3px">
                     <img src="assets/nlogo/insta.png" alt="" class="social">
                 </a>
-                <a href="https://www.facebook.com/sdmhjaipur/" style="margin-right:3px">
+                <a href="https://www.facebook.com/sdmhjaipur/" class="icon_a"  style="margin-right:3px">
                     <img src="assets/nlogo/fb.png" alt="" class="social">
                 </a>
-                <a href="https://twitter.com/sdmh_hospital?lang=en" style="margin-right:3px">
+                <a href="https://twitter.com/sdmh_hospital?lang=en"  class="icon_a" style="margin-right:3px">
                     <img src="assets/nlogo/tw.png" alt="" class="social">
                 </a>
-                <a href="#" class="w social" style="margin-right:3px">
+                <a href="#" class="icon_a" style="margin-right:3px">
                     <img src="assets/nlogo/wa.png" alt="" class="social">
                 </a>
             </div>
